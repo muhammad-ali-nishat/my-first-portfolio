@@ -1,0 +1,188 @@
+
+/* shared css */
+.orange{
+    color: #FD6E0A;
+}
+.gray{
+    color: #474747;
+}
+.btn-1{
+    padding:18px 19px;
+    background-color: #FD6E0A;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.title{
+    font-size: 35;
+    font-weight: bold;
+    color: black;
+}
+.tex{
+    color: #757575;
+    font-size: 18px;
+}
+.item-tit{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.itm{
+    font-size: 20px;
+    margin-top: 0px;
+    color: #474747;
+}
+
+
+
+
+
+
+
+
+.open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.page-a{
+    background-image: url(../style/developer.png),url(../style/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: 30px ,bottom right;
+    background-color: #FFF8F3;
+    
+}
+.orange{
+    color: #FD6E0A;
+}
+.gray{
+    color: #474747;
+}
+nav{
+    display: flex;
+    align-items: center;  /* this will certral everything vartically */
+    justify-content: space-between;
+    margin: 0 200px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    align-items: center;  
+    
+}
+
+nav li a{
+    text-decoration: none;
+    color: #474747 ;
+    font-size: 20px;
+    
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px 0px 200px;
+
+}
+.btn-for-banner{
+    display: flex;
+    align-items: center;
+    gap: 38px;
+}
+.banner-img{
+    max-height: 867px;
+    max-width: 584px;
+    background-image: image-set();
+}
+.lime{
+    display: flex;
+    justify-content: space-around;
+    }
+.mainme{
+     
+}
+    
+
+.aboutme{
+    
+    max-width: 1140px;
+    margin: 230px auto;
+    text-align: center;   /* this will central all the text  */
+    padding: 156px 156px;
+    background-color: #FFF8F3;
+    border-radius: 20px;
+    }
+.ido{text-align: center;
+    max-width: 1140px;
+    margin: 230px auto;
+    margin-bottom: 0px;
+}
+.card1{padding: 33px;
+    /* border: 1px black solid; */
+    box-shadow:5px 20px 40px;
+    margin-right: 20px;
+
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    margin: 263px 263px 160px 263px;
+}
+.middle{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    text-align: left;
+   
+}
+.middlefinal{
+    text-align: center;
+    margin: 0px 277px 0px 230px;
+}
+.school{
+    font-size: 20px;
+    font-weight: 400px;
+      font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+.peraleft{
+    border-bottom: 1px #D1D1D1 solid;
+}
+
+.headline{
+    padding-bottom: 50px;
+}
+.logo{
+    display: flex;
+}
+footer{
+    height: 600px;
+    width: auto;
+    background-color: #FFF8F3;
+    
+}
+.finalf{
+    display: flex;
+    justify-content: space-between;
+}
+.f2{
+    padding-left: 0px;
+}
+.f2,.f1{
+    padding-top: 60px;
+    
+    text-align: left;
+}
+.f1{
+    padding-left: 100px;
+}
